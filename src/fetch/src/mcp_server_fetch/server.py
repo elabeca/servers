@@ -154,7 +154,7 @@ class Fetch(BaseModel):
     max_length: Annotated[
         int,
         Field(
-            default=5000,
+            default=75000,
             description="Maximum number of characters to return.",
             gt=0,
             lt=1000000,
